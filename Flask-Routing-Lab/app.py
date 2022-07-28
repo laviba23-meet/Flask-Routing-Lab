@@ -12,6 +12,13 @@ def homepage():
 
 
 
+@app.route('/GrandPiano')
+def grand():
+    return render_template("grand.html")
+
+
+
+
 
 
 if __name__ == "__main__":  # Makes sure this is the main process
